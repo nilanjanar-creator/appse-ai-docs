@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: arise-docs
+  namespace: arise
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: arise-docs
+  template:
+    metadata:
+      labels:
+        app: arise-docs
+    spec:
+      containers:
+        - name: arise-docs
+          image: reimagine.azurecr.io/arise-doc:latest  # <-- your image here
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              memory: "256Mi"
+              cpu: "250m"
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
