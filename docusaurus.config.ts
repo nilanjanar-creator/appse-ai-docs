@@ -93,12 +93,7 @@ const config: Config = {
           position: "left",
           label: "App Integration",
         },
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "How to Write Doc",
-        },
+       
         // { to: "/app-integration", label: "App Integration", position: "left" },
         // {
         //   href: "https://github.com/facebook/docusaurus",

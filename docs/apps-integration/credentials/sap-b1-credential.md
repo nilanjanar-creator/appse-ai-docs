@@ -66,7 +66,6 @@ Provide a name for your credential in the `Connection Name` field. This will be 
 1. Use your **SAP B1 login credentials**.
 2. Make sure the user has sufficient API permissions for integration.
 
-
 ---
 
 ## Test Your Credential
