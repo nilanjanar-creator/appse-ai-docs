@@ -42,6 +42,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          routeBasePath: "/", // Set the base path for docs
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
