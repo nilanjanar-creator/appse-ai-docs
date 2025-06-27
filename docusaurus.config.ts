@@ -73,12 +73,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/social-card.jpg",
     navbar: {
       title: "APPSeAI Docs",
       logo: {
         alt: "APPSeAI Docs",
-        src: "img/logo.svg",
+        src: "img/logo01.png",
       },
       items: [
         {
@@ -93,7 +93,7 @@ const config: Config = {
           position: "left",
           label: "App Integration",
         },
-       
+
         // { to: "/app-integration", label: "App Integration", position: "left" },
         // {
         //   href: "https://github.com/facebook/docusaurus",
