@@ -18,7 +18,7 @@ You’ll be asked to fill in the following details:
 | Field             | Description                                      |
 |------------------|--------------------------------------------------|
 | Connection Name   | A name to help you identify this connection      |
-| API Key Value     | Your personal API token from Pipedrive           |
+| API Token     | Your personal API token from Pipedrive           |
 | Pipedrive Domain  | Your unique Pipedrive domain (e.g. `acme`.pipedrive.com) |
 
 ---
@@ -32,7 +32,7 @@ You’ll be asked to fill in the following details:
 
 ---
 
-### 2. Find Your API Key Value
+### 2. Find Your API Token
 
 1. Log in to your **Pipedrive** account.
 2. Click your profile icon (top right) → **Personal preferences** → **API**.
@@ -40,7 +40,7 @@ You’ll be asked to fill in the following details:
 
 3. Copy the **API token** provided under the "API" section.
 > **Example**:
-> - API Key Value: `d5a1234e5678abcde9012345fghij6789klm0n`
+> - API Token: `d5a1234e5678abcde9012345fghij6789klm0n`
 <img src="/img/credentials/pipedrive-cred-api-key.png" alt="APPSeAI Pipedrive API Key" width="700"/>
 
 > **Note**: Treat your API key like a password. Do not share it publicly.
@@ -74,4 +74,3 @@ Once you've filled in the necessary fields, click **"Save"** to store and verify
 
 If you’re unsure about any field or face connection issues, reach out to our support team at support@appseai.com.
 
----

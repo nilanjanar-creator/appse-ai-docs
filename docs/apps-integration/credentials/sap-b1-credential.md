@@ -83,4 +83,3 @@ Once you've filled in the necessary fields, click **"Save"** to store and verify
 
 If you’re unsure about any field or face connection issues, reach out to our support team at support@appseai.com.
 
----

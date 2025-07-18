@@ -29,7 +29,6 @@ You’ll be asked to fill in the following details:
 - Provide a descriptive name for your connection (e.g., `Apify Scraper`, `Product Monitor Feed`).
 - This helps you easily recognize the connection within our platform.
 
----
 
 ### 2. Find Your Bearer Token
 
@@ -60,4 +59,3 @@ Once you've filled in the necessary fields, click **"Save"** to store and verify
 
 If you’re unsure about any field or face connection issues, reach out to our support team at support@appseai.com.
 
----

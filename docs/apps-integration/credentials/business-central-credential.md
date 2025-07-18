@@ -20,7 +20,7 @@ You’ll need to provide:
 |----------------|--------------------------------------------------|
 | Connection Name | A name to identify the connection                |
 | Tenant ID       | Your Azure Active Directory tenant ID            |
-| Company Name    | The Business Central company you're working with |
+| Company ID    | The ID of the Business Central company you're working with |
 
 ---
 
@@ -49,17 +49,19 @@ You’ll need to provide:
 
 ---
 
-### 3. Find Your Company Name
+### 3. Find Your Company ID
 
-1. Log in to your Business Central account.
-2. Navigate to **Settings (⚙️)** → **My Settings**.
-<img src="/img/credentials/business-central-cred-companyname.png" alt="APPSeAI Business Central Company Name" width="700"/>
+1. Log in to your [Business Central](https://www.microsoft.com/en-in/dynamics-365/products/business-central/sign-in) account.
+2. Click on the **Search** icon → Search "Companies" → Click on Companies.
+<img src="/img/credentials/business-central-company-id-1.png" alt="APPSeAI Business Central Companies Search" width="700"/>
 
-3. Locate the value under **Company**.
-<img src="/img/credentials/business-central-cred-settings.png" alt="APPSeAI Business Central Settings" width="700"/>
-
+3. Select Your Company Name from the list.
+<img src="/img/credentials/business-central-company-id-2.png" alt="APPSeAI Business Central Select Company name" width="700"/>
 
 > **Example**: `CRONUS USA, Inc.`
+
+4. Press Ctrl+Alt+F1 → A Side Panel titled **Page Inspection** will open → Click on Table Fields → Under **Id (8000, GUID)** field, you will find the **Company ID** → Copy this and paste it in the credential form → Click on Save and Authorize.
+<img src="/img/credentials/business-central-company-id-3.png" alt="APPSeAI Business Central Find Company ID" width="700"/>
 
 ---
 
@@ -87,4 +89,3 @@ Once you've filled in the necessary fields, click **"Save"** to store and verify
 
 If you’re unsure about any field or face connection issues, reach out to our support team at support@appseai.com.
 
----
