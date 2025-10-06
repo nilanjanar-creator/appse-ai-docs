@@ -6,17 +6,11 @@ sidebar_position: 4
 
 This guide explains the features of the **Organization Settings** page in APPSeCONNECT and how users can manage organization members, roles, and statuses.
 
----
+The Organization tab displays all the members associated with your APPSe AI workspace. It allows `Admin users` to manage roles, track invitation statuses, and invite new members.
 
-## Where to Find This
+### Where to Find This
 
 Navigate through the left sidebar: `Settings` > `Organization`
-
----
-
-## Page Overview
-
-The Organization tab displays all the members associated with your APPSe AI workspace. It allows `Admin users` to manage roles, track invitation statuses, and invite new members.
 
 ---
 
@@ -26,7 +20,6 @@ The Organization tab displays all the members associated with your APPSe AI work
 
 At the top of the section, the current organization name is displayed.
 
----
 
 ### 2. Members Table
 

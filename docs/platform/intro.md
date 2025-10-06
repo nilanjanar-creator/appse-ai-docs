@@ -30,7 +30,7 @@ Curious to see how APPSe AI can transform your automation strategy?
       fontSize: '19px'
     }}
   >
-    Try APPSe AI!
+    Try appse ai!
   </a>
 </div>
 

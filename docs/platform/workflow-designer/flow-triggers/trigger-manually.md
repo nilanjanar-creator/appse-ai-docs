@@ -1,11 +1,11 @@
 ---
 title: Trigger Manually
-slug: /action-nodes/trigger-manually
+slug: /flow-triggers/trigger-manually
 ---
 
-# Triggered Manually
+# Trigger Manually
 
-The **Triggered Manually** node allows users to initiate a workflow manually from within the APPSe AI workflow designer. It is primarily used for testing and debugging workflows without needing an external event or schedule to start execution.
+The **Trigger Manually** node allows users to initiate a workflow manually from within the APPSe AI workflow designer. It is primarily used for testing and debugging workflows without needing an external event or schedule to start execution.
 
 This is a trigger node and therefore has **no input channels**. It has a **single output channel** that passes either the user-provided mock data or an empty dataset to subsequent nodes.
 

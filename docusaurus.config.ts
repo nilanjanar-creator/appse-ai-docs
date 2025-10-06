@@ -5,9 +5,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "APPSeAI - Docs",
+  title: "appse ai - docs",
   tagline: "Build AI Agents with Ease",
-  favicon: "img/favicon-appse-ai.ico",
+  favicon: "img/favicon-appse-ai-docs.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
   future: {
@@ -75,10 +75,10 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/social-card.jpg",
     navbar: {
-      title: "APPSeAI Docs",
+      title: "appse ai docs",
       logo: {
-        alt: "APPSeAI Docs",
-        src: "img/brand-logo.svg",
+        alt: "appse ai docs",
+        src: "img/brand-logo-appse-ai.svg",
       },
       items: [
         {
