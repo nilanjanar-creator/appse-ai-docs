@@ -1,6 +1,6 @@
 ---
 title: "Organization"
-slug : /settings/organization
+slug : /platform/settings/organization
 sidebar_position: 4
 ---
 

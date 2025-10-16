@@ -1,6 +1,6 @@
 ---
 title: Settings
-slug: /settings
+slug: /platform/settings
 ---
 
 # Settings

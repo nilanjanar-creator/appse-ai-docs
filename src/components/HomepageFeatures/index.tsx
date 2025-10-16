@@ -18,7 +18,7 @@ const FeatureList: FeatureItem[] = [
       <>
         Browse key features like credential management, processflows, execution
         history, and AI agents, everything built to simplify integration.{' '}
-        <a href="/platform/intro">Explore</a>
+        <a href="/platform">Explore</a>
       </>
     ),
   },
@@ -29,7 +29,7 @@ const FeatureList: FeatureItem[] = [
       <>
         Connect your favorite apps in minutes. Sync data effortlessly across
         platforms with zero-code integrations and enterprise-grade reliability.{' '}
-        <a href="apps-integration/introduction">Explore</a>
+        <a href="/app-integrations">Explore</a>
       </>
     ),
   },

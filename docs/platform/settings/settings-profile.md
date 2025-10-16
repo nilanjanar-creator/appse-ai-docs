@@ -1,6 +1,6 @@
 ---
 title: "Profile"
-slug : /settings/profile
+slug : /platform/settings/profile
 sidebar_position: 3
 ---
 

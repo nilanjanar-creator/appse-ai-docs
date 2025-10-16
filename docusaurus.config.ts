@@ -91,10 +91,10 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "app_integrationSidebar",
           position: "left",
-          label: "App Integration",
+          label: "App Integrations",
         },
 
-        // { to: "/app-integration", label: "App Integration", position: "left" },
+        // { to: "/app-integration", label: "App Integrations", position: "left" },
         // {
         //   href: "https://github.com/facebook/docusaurus",
         //   label: "GitHub",

@@ -1,6 +1,6 @@
 ---
 title: "Getting Started"
-slug : /getting-started
+slug : /platform/getting-started
 sidebar_position: 2
 ---
 

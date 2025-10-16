@@ -1,13 +1,13 @@
 ---
 title: Trigger Manually
-slug: /flow-triggers/trigger-manually
+path: platform/workflow-designer/triggers/trigger-manually
 ---
 
 # Trigger Manually
 
 The **Trigger Manually** node allows users to initiate a workflow manually from within the APPSe AI workflow designer. It is primarily used for testing and debugging workflows without needing an external event or schedule to start execution.
 
-This is a trigger node and therefore has **no input channels**. It has a **single output channel** that passes either the user-provided mock data or an empty dataset to subsequent nodes.
+This is a trigger node and therefore has **no input channels**. It has a **single output channel** that passes either the user-provided JSON payload or an empty dataset to subsequent nodes.
 
 ---
 
@@ -21,7 +21,7 @@ This node does **not** require any credentials to operate.
 <img src="\img\platform\platform-tour\workflow-designer\action-nodes\manual-trigger\manual-trigger-configuration-screen.png" alt="APPSe AI Manual Trigger Configuration" width="700"/>
 The configuration screen does not have mandatory fields.
 
-- **Mock Data (Optional):** Users can define sample data in JSON format that will be sent to subsequent nodes whenever the node is triggered.
+- **Custom JSON payload (Optional):** Users can define sample data in JSON format that will be sent to subsequent nodes whenever the node is triggered.
 
 <img src="\img\platform\platform-tour\workflow-designer\action-nodes\manual-trigger\manual-trigger-mock-data.png" alt="APPSe AI Manual Trigger Mock data" width="700"/>
 

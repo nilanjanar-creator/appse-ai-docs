@@ -1,11 +1,11 @@
 ---
-title: Workflow Designer
-slug: /workflow-designer
+title: Workflow designer
+slug: /platform/workflow-designer
 ---
 
 # Workflow Designer
 
-The **Workflow Designer** enables you to create, connect, and manage automation workflows in APPSe AI. It gives you a canvas where you can bring together application nodes, flow triggers, in-app triggers, logic nodes, and AI agents to define how data and actions move across your systems.  
+The **Workflow Designer** enables you to create, connect, and manage automation workflows in APPSe AI. It gives you a canvas where you can bring together application nodes,triggers, in-app triggers, logic nodes, and AI agents to define how data and actions move across your systems.  
 
 With the Workflow Designer, you can:  
 - Build workflows from scratch or start with ready-made templates.  
