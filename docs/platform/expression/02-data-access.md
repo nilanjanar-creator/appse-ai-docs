@@ -1,4 +1,10 @@
-# 📋 Data Access Patterns
+---
+id: data-access-patterns
+title: Data Access Patterns
+sidebar_position: 2
+description: Techniques for accessing properties and arrays in APPSeAI workflow expressions.
+keywords: [data access, arrays, APPSeAI, JMESPath]
+---
 
 Master the techniques for accessing properties and working with arrays in APPSeAI workflow expressions. This guide focuses on extracting and navigating through your workflow data effectively.
 

@@ -1,4 +1,10 @@
-# 📋 Data Transformation & Projections
+---
+id: data-transformations
+title: Data Transformation & Projections
+sidebar_position: 4
+description: Reshape and transform data using projections and mappings in APPSeAI expressions.
+keywords: [transformations, projections, mapping, APPSeAI]
+---
 
 Learn how to reshape and transform data using projections and mappings.
 

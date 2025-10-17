@@ -1,5 +1,12 @@
-# 📋 Expression Basics
+---
+id: expression-basics
+title: Expression Basics
+sidebar_position: 1
+description: Core concepts and simple examples for APPSeAI expression syntax and usage.
+keywords: [expressions, JMESPath, APPSeAI, basics]
+---
 
+### Introduction
 Learn the fundamental concepts of writing expressions for APPSeAI workflow nodes. This guide covers core syntax and simple examples to get you started with dynamic data mapping.
 
 ---

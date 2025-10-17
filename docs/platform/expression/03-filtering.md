@@ -1,4 +1,10 @@
-# 📋 Filtering and Conditions
+---
+id: filtering-conditions
+title: Filtering and Conditions
+sidebar_position: 3
+description: Techniques for filtering JSON arrays and objects using JMESPath in APPSeAI workflows.
+keywords: [filtering, conditions, JMESPath, APPSeAI]
+---
 
 Master data filtering techniques to extract exactly the information you need in APPSeAI workflows. Learn to write precise queries that return only the data matching your criteria.
 

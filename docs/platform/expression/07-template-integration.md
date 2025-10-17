@@ -1,4 +1,10 @@
-# 📋 Template Integration
+---
+id: template-integration
+title: Template Integration
+sidebar_position: 7
+description: Best practices for using JMESPath expressions inside templates and generating dynamic outputs in APPSeAI workflows.
+keywords: [templates, integration, interpolation]
+---
 
 Learn how to use expressions effectively within templates and different contexts.
 

@@ -1,4 +1,8 @@
-# 📋 Advanced Expression Patterns
+id: advanced-patterns
+title: Advanced Expression Patterns
+sidebar_position: 6
+description: Complex JMESPath scenarios, multi-level aggregations, and performance patterns for APPSeAI workflows.
+keywords: [advanced, patterns, jmespath, aggregations]
 
 Complex scenarios and advanced techniques for sophisticated data processing.
 

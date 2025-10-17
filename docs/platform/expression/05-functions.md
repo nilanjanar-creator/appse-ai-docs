@@ -1,4 +1,10 @@
-# 📋 Functions Reference
+# ---
+id: functions-reference
+title: Functions Reference
+sidebar_position: 5
+description: Reference for built-in and custom JMESPath functions available in APPSeAI expressions.
+keywords: [functions, jmespath, date, math]
+---
 
 Complete reference of built-in functions available in expressions.
 

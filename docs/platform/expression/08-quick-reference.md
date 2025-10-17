@@ -1,4 +1,10 @@
-# 📋 Quick Reference
+---
+id: quick-reference
+title: Quick Reference
+sidebar_position: 8
+description: Concise cheat sheet of common JMESPath expression patterns used within APPSeAI workflows.
+keywords: [quick reference, cheat sheet, jmespath]
+---
 
 Essential syntax and patterns for quick lookup.
 
