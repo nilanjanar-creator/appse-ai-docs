@@ -1,6 +1,8 @@
 ---
-title: Introducing APPSe AI
+title: Introducing appse ai
 sidebar_position: 1
+slug: /platform
+
 ---
 
 Integration Platform as a Service (iPaaS) is a cloud-based solution that enables businesses to connect disparate applications, data sources, and systems—without writing complex code or managing backend infrastructure. It acts as the bridge between software tools, ensuring seamless data flow and automated workflows across your digital ecosystem. iPaaS empowers both technical and non-technical users to accelerate operations, reduce manual errors, and adapt quickly to changing business needs.
@@ -30,7 +32,7 @@ Curious to see how APPSe AI can transform your automation strategy?
       fontSize: '19px'
     }}
   >
-    Try APPSe AI!
+    Try appse ai!
   </a>
 </div>
 

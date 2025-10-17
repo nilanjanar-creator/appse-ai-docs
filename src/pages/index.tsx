@@ -21,7 +21,7 @@ function HomepageHeader() {
           <Link
             className="button button--secondary button--lg"
             to="https://reimagine.insync.pro/login?callbackUrl=%2F">
-            Try APPSe AI Now!
+            Try appse ai now!
           </Link>
         </div>
       </div>

@@ -1,6 +1,7 @@
 ---
 sidebar_position: 1
-title: "App Integrations"
+title: App Integrations
+slug: /app-integrations
 ---
 
 **APPSe AI** is a platform designed to help you connect and manage a wide range of business applications from different domains.
