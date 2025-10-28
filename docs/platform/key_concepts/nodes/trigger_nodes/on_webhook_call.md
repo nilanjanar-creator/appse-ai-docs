@@ -1,4 +1,5 @@
 ---
+slug: /platform/key-concepts/nodes/trigger/webhook
 title: On Webhook Call Trigger
 position: 4
 ---

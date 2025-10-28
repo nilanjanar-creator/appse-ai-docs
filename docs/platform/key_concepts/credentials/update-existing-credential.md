@@ -2,6 +2,7 @@
 title: Update Existing Credential
 sidebar_position: 2
 description: Learn how to modify an existing credential within the appse ai platform.
+slug: platform/key-concepts/credentials/update-existing-credential/
 ---
 
 <div style={{ textAlign: 'center' }}>

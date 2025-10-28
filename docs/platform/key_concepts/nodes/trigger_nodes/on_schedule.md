@@ -1,4 +1,5 @@
 ---
+slug: /platform/key-concepts/nodes/trigger/on-schedule
 title: On Schedule Trigger
 position: 3
 ---

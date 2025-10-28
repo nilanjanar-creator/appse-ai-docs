@@ -2,7 +2,7 @@
 id: plan-your-flow
 title: Plan Your Flow
 sidebar_position: 1
-slug: /platform/getting-started/create-flow/plan-your-flow
+slug: /platform/getting-started/create-flow/plan-your-flow/
 ---
 
 ## Step 1: Plan Your Flow

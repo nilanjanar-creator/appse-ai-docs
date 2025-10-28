@@ -24,7 +24,7 @@ const sidebars: SidebarsConfig = {
         title: "Getting Started",
         description:
           "Familiarize yourself with the appse ai platform by building your very first flow.",
-        slug: "/platform/getting_started/",
+        slug: "/platform/getting-started/",
       },
       items: [
         {

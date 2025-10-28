@@ -1,4 +1,5 @@
 ---
+slug: /platform/key-concepts/nodes/built-in/decision
 title: Decision Node
 sidebar_position: 4
 ---

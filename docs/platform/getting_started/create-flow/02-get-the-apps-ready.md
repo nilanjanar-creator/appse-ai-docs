@@ -2,7 +2,7 @@
 id: get-the-apps-ready
 title: Get The Apps Ready
 sidebar_position: 2
-slug: /platform/getting-started/create-flow/get-the-apps-ready
+slug: /platform/getting-started/create-flow/get-the-apps-ready/
 ---
 ## Step 2: Get The Apps Ready
 

@@ -1,4 +1,5 @@
 ---
+slug: /platform/key-concepts/nodes/built-in/filter
 title: Filter Node
 ---
 <div style={{ textAlign: 'center' }}>

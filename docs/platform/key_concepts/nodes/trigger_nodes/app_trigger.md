@@ -1,4 +1,5 @@
 ---
+slug: /platform/key-concepts/nodes/trigger/app-trigger
 title: App Trigger
 position: 2
 ---

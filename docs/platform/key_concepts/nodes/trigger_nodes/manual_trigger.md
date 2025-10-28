@@ -1,4 +1,5 @@
 ---
+slug: /platform/key-concepts/nodes/trigger/manual
 title: Manual Trigger 
 position: 1
 ---

@@ -1,4 +1,5 @@
 ---
+slug: /platform/key-concepts/configure-a-node
 title: Configure a Node
 sidebar_position: 4
 description: Learn how to configure nodes in APPSeAI to customize their behavior and functionality within workflows

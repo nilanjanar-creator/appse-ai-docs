@@ -1,6 +1,6 @@
 ---
+slug: /platform/key-concepts/nodes/built-in/merge
 title: Merge Node
-slug: /platform/workflow-designer/built-in-nodes/merge-node
 ---
 
 # Merge Node 
