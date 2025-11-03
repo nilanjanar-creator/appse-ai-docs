@@ -5,7 +5,7 @@ description: Learn the basics of all the steps involved in configuring any node.
 slug: platform/key-concepts/workflow/node-setup-and-configuration
 ---
 
-# Node Configuration Guide
+# Node Setup and Configuration
 
 The Node Setup and Configuration guide outlines the process for adding, configuring, and testing nodes in a workflow. It covers selecting a node, configuring credentials and actions, setting necessary parameters, testing the setup, and reviewing the output to ensure everything is set up correctly before proceeding.
 
