@@ -58,7 +58,7 @@ const sidebars: SidebarsConfig = {
         title: "Key Concepts",
         description:
           "Learn about the key concepts used in the platform to create dynamic and flexible workflows.",
-        slug: "/platform/key_concepts/",
+        slug: "/platform/key-concepts/",
       },
       items: [
         //"platform/key_concepts/introduction",

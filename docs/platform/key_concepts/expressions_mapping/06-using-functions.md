@@ -4,6 +4,7 @@ title: Using Functions
 sidebar_position: 6
 description: Built-in functions for arrays, strings, math, and data manipulation.
 keywords: [functions, built-in, array functions, string functions, math]
+slug: /platform/key-concepts/expressions/using-functions
 ---
 
 # Using Functions

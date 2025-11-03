@@ -2,7 +2,7 @@
 title: Inter-Node Link Management
 sidebar_position: 2
 description: Understand how to manage links between nodes in APPSeAI workflows for effective data flow.
-slug: platform/key-concepts/workflow/inter-node-link-management
+slug: /platform/key-concepts/workflow/inter-node-link-management/
 ---
 
 # Inter-Node Link Management

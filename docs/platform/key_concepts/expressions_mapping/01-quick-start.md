@@ -4,6 +4,7 @@ title: Quick Start Guide
 sidebar_position: 1
 description: Get started with expressions in 3 minutes - copy-paste ready examples for immediate results.
 keywords: [quick start, expressions, examples, tutorial, APPSeAI]
+slug: /platform/key-concepts/expressions/quick-start
 ---
 
 # Quick Start Guide

@@ -4,6 +4,7 @@ title: Expression Language Overview
 sidebar_position: 0
 description: Transform and query workflow data using expressions in APPSeAI nodes.
 keywords: [expressions, JMESPath, APPSeAI, workflow, data transformation]
+slug: /platform/key-concepts/expressions/overview
 ---
 
 # Expression Language in APPSeAI

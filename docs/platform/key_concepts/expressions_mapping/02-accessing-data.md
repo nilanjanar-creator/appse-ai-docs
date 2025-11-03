@@ -4,6 +4,7 @@ title: Accessing Data
 sidebar_position: 2
 description: Learn how to access properties and nested data in APPSeAI expressions.
 keywords: [data access, properties, nested data, dot notation]
+slug: /platform/key-concepts/expressions/accessing-data
 ---
 
 # Accessing Data

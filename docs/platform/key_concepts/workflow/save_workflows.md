@@ -2,7 +2,7 @@
 title: Save Workflows
 sidebar_position: 3
 description: Discover how to save and manage workflows in APPSeAI for future use and modification.
-slug: platform/key-concepts/workflow/save-workflows
+slug: /platform/key-concepts/workflow/save-workflows/
 ---
 # Save Workflows
 

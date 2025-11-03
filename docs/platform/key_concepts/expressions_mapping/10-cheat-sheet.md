@@ -4,6 +4,7 @@ title: Expression Cheat Sheet
 sidebar_position: 10
 description: Quick reference for all expression operators, functions, and common patterns.
 keywords: [cheat sheet, reference, operators, functions, quick guide]
+slug: /platform/key-concepts/expressions/cheat-sheet
 ---
 
 # Expression Cheat Sheet

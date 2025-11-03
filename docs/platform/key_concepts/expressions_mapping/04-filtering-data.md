@@ -4,6 +4,7 @@ title: Filtering Data
 sidebar_position: 4
 description: Filter arrays and objects using conditions and comparison operators.
 keywords: [filtering, conditions, queries, where clause]
+slug: /platform/key-concepts/expressions/filtering-data
 ---
 
 # Filtering Data
