@@ -2,10 +2,11 @@
 slug: /platform/key-concepts/nodes/trigger/on-schedule
 title: On Schedule Trigger
 position: 3
+description: Initiates a workflow at a predefined time or recurring interval.
 ---
 # On Schedule Trigger
 
-The **On-Schedule** node helps you automate when your workflow runs — whether it’s every few minutes, daily, weekly or on a specific date and time.  
+The **On-Schedule** node helps you automate when your workflow runs — whether it’s every few minutes, daily, weekly, or on a specific date and time.  
 It acts as your workflow’s **internal timer**, allowing **appse ai** to handle recurring actions automatically.
 
 You’ll find this node under **Triggers** when adding a trigger to your workflow.
