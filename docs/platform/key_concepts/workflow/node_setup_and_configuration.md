@@ -1,6 +1,6 @@
 ---
 title: Node Setup and Configuration
-sidebar_position: 1
+sidebar_position: 2
 description: Learn the basics of all the steps involved in configuring any node.
 slug: platform/key-concepts/workflow/node-setup-and-configuration
 ---

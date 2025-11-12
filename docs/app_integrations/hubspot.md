@@ -1,6 +1,6 @@
 ---
 title: "HubSpot"
-slug : /app-integrations/hubspot
+slug : /app-integrations/hubspot/
 ---
 
 **HubSpot CRM** is a cloud-based customer relationship management platform that helps businesses manage leads, track interactions, and grow customer relationships efficiently. It provides a unified space for sales, marketing, and support teams to collaborate and stay aligned.
@@ -53,9 +53,9 @@ This account gives you access to the **HubSpot Developer Dashboard**, where you 
 ### 7. Redirect URL
 
    You need to add the Redirect URL. For this, go back to your HubSpot credential form in appse ai and look for the Redirect URL.  
-   (If you don’t know how to add a credential in appse ai, refer to the documentation on how to  add a credential )   
+   (If you don’t know how to add a credential in appse ai, refer to the documentation on how to  [add a credential](https://docs.appse.ai/platform/key-concepts/credentials/add-a-credential) )   
 
-<img src="\img\credentials\hubspot\now-create-app.png" alt="redirect url screen" width="700"/>
+<img src="\img\credentials\hubspot\redirect-url.png" alt="redirect url screen" width="500"/>
 
    Copy it and paste it in the Redirect URL field in HubSpot.
 
@@ -67,19 +67,9 @@ You need to ensure that these scopes are added to the HubSpot to connect the cre
 
 <img src="\img\credentials\hubspot\add-new-scope.png" alt="add new scope screen" width="700"/>
 
---
+#### Scopes to select 
 
-| Scopes to select |
-| :---- |
-| crm.objects.companies.read                 |
-| crm.objects.companies.write          |
-| crm.objects.contacts.read          |
-| crm.objects.contacts.write               |
-| crm.objects.deals.read                   |
-| crm.objects.deals.write               |
-| crm.objects.line\_items.read            |
-| crm.objects.line\_items.write           |
-| oauth |
+`crm.objects.companies.read` `crm.objects.companies.write` `crm.objects.contacts.read` `crm.objects.contacts.write` `crm.objects.deals.read` `crm.objects.deals.write` `crm.objects.line_items.read` `crm.objects.line_items.write` `oauth`
 
 ### 9. Create app
 
