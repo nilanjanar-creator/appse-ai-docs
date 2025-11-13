@@ -50,6 +50,6 @@ Each credential is accompanied by a **status icon** that provides a quick visual
 ---
 ## Need Help?
 
-If you’re unsure about anything discussed on this page, reach out to our support team at [support@appseai.com](mailto:support@appseai.com).
+If you’re unsure about anything discussed on this page, reach out to our support team at hello@appse.ai
 
 
