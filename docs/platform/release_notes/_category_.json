@@ -1,0 +1,11 @@
+{
+  "label": "Release Notes",
+  "position": 4,
+  "link": {
+    "type": "generated-index",
+    "title": "Release Notes",
+    "description": "Check out the latest updates and improvements in our platform.",
+    "slug": "/platform/release-notes/"
+  },
+  "collapsed": false
+}

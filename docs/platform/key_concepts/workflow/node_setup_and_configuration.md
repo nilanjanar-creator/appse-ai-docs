@@ -13,7 +13,8 @@ The Node Setup and Configuration guide outlines the process for adding, configur
 ## 1. Select the Node
 Begin by choosing a node to add to your workflow. This can be an app or an action. The available nodes are categorized for easy navigation. You can find the most popular apps and actions at the top, like SAP, Zoho CRM, Google Sheets, etc.
 
-<img src="\img\platform\key-concepts\credentials\delete-credential\delete-option.png" alt="appse ai credential delete option" width="700"/>
+<img src="\img\platform\key-concepts\workflow\node-setup-and-configuration\selection-screen.jpeg" alt="appse ai selection screen" width="700"/>
+
 ---
 
 ## 2. Select Credentials and Actions

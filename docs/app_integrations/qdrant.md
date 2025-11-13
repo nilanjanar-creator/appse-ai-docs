@@ -87,5 +87,5 @@ Every application has a pre-defined set of triggers and actions that allow users
 
 ## Need Help?
 
-If you’re unsure about any field or face connection issues, reach out to our support team at support@appseai.com.
+If you’re unsure about any field or face connection issues, reach out to our support team at hello@appse.ai
 
