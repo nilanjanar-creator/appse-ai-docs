@@ -6,7 +6,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "appse ai - docs",
-  tagline: "Build AI Agents with Ease",
+  tagline: "Your AI automation journey starts here!",
   favicon: "img/favicon-appse-ai-docs.png",
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
