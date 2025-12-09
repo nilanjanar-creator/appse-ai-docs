@@ -26,7 +26,7 @@ You’ll be asked to fill in the following details:
 
 ### Step-by-Step Guide
 
-#### 1. Sign In / Create an account in HubSpot
+#### 1. Sign In / Create an account in OpenAI
 
 Go to the [OpenAI platform](https://auth.openai.com/log-in) and sign in or sign up.
 
