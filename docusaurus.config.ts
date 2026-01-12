@@ -36,6 +36,8 @@ const config: Config = {
     locales: ["en"],
   },
 
+  plugins: [require.resolve('docusaurus-plugin-image-zoom')],
+
   presets: [
     [
       "classic",
@@ -74,6 +76,19 @@ const config: Config = {
   themeConfig: {
     // Replace with your project's social card
     image: "img/social-card.jpg",
+
+    zoom: {
+      selector: '.markdown img',
+      background: {
+          light: 'rgb(255, 255, 255)',
+          dark: 'rgb(50, 50, 50)'
+      },
+      config: {
+        margin: 100,
+        scrollOffset: 0,
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+      }
+    },
     navbar: {
       title: "appse ai docs",
       logo: {
