@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: appseai-docs
+  namespace: appseai-wfa
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: appseai-docs
+  template:
+    metadata:
+      labels:
+        app: appseai-docs
+    spec:
+      containers:
+        - name: appseai-docs
+          image: appseaiacr.azurecr.io/appseai-doc:latest  # <-- your image here
+          ports:
+            - containerPort: 80
+          resources:
+            limits:
+              memory: "512Mi"
+              cpu: "759m"
+            requests:
+              memory: "256Mi"
+              cpu: "256m"
