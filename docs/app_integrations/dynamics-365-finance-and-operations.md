@@ -87,3 +87,7 @@ No. Only the environment name is required. Appse.ai automatically constructs the
 
 **Do I need to configure OAuth details manually?**  
 No. OAuth 2.0 authorization is handled internally by Appse.ai for both credential options.
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai

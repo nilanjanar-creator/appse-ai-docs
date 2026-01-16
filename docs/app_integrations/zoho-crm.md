@@ -4,6 +4,8 @@ slug : /app-integrations/zoho-crm/
 ---
 Zoho CRM is a cloud-based software that helps businesses manage their customer relationships, track sales, and automate various business processes. It enables companies to streamline their sales, marketing, and customer support efforts on a single platform.
 
+---
+
 ### Key Features:
 - **Lead and Contact Management**: Track and manage leads, contacts, and accounts.
 - **Sales Automation**: Automate routine tasks, such as follow-ups and data entry.

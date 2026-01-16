@@ -11,6 +11,8 @@ import TabItem from '@theme/TabItem';
 
 Zoho Recruit is an applicant tracking system used to manage candidates, job openings, interviews, and recruitment workflows. This guide explains how to configure Zoho Recruit authentication credentials in Appse.ai so the platform can securely connect to your Zoho Recruit account.
 
+---
+
 ## Key Features
 
 - **Candidate Management**: Track and manage candidates throughout the hiring lifecycle.

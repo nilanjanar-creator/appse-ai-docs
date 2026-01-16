@@ -72,3 +72,7 @@ This OAuth 2.0 integration ensures that both admin and non-admin users can secur
 ---
 
 For any issues or queries regarding Microsoft Credentials, feel free to reach out to hello@appseai.com
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai

@@ -13,6 +13,17 @@ Apollo.io is a B2B sales intelligence and engagement platform that helps teams d
 
 ---
 
+## Key Features
+
+**Lead Discovery**: Find targeted B2B prospects using advanced search filters.
+**Data Enrichment**: Enrich contacts and companies with verified contact and firmographic data.
+**Sales Automation**: Automate outbound emails, follow-ups, and engagement sequences.
+**Intent Signals**: Identify accounts showing buying interest.
+**CRM Sync**: Sync leads and contacts with connected CRM systems.
+**Integrations**: Connect seamlessly with Appse.ai and other third-party tools.
+
+---
+
 ## Setup Credential
 
 Follow the steps below to configure Apollo.io credentials in Appse.ai.
@@ -34,11 +45,11 @@ All required fields must be filled correctly to successfully authorize Apollo wi
 
 To get started with Apollo.io, click **Select a Credential** and choose **Apollo.io** from the application list.
 
-<img src="/img/credentials/apollo-io/create_credential.png" alt="Create Apollo.io credential" width="700"/>
+<img src="/img/credentials/apollo-io/add_credential.png" alt="Create Apollo.io credential" width="700"/>
 
 This opens the Apollo.io credential form.
 
-<img src="/img/credentials/apollo-io/credential_form.png" alt="Apollo.io credential form" width="700"/>
+<img src="/img/credentials/apollo-io/configure_credential.png" alt="Apollo.io credential form" width="700"/>
 
 ---
 
@@ -55,7 +66,7 @@ This opens the Apollo.io credential form.
 
 - Open a new tab and log in to your **Apollo.io** account.
 
-<img src="/img/credentials/apollo-io/login.png" alt="Apollo.io login page" width="700"/>
+<img src="/img/credentials/apollo-io/login_page.png" alt="Apollo.io login page" width="700"/>
 
 Sign in to your **Zoho Recruit** account.
 

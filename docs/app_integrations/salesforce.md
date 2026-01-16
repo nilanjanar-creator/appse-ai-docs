@@ -87,3 +87,7 @@ Go to the Settings tab and find the link to view your "Consumer Key and Secret".
 Paste both back in appse ai. If you followed all the steps right, your credential should be connected!
 
 ---
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai
