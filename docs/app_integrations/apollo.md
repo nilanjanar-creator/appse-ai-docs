@@ -1,7 +1,7 @@
 ---
-title: Apollo
-description: Step-by-step guide to set up Apollo credentials for Appse.ai integration
-slug: /app-integrations/apollo/
+title: Apollo.io
+description: Step-by-step guide to set up Apollo.io credentials for Appse.ai integration
+slug: /app-integrations/apollo-io/
 ---
 
 import Tabs from '@theme/Tabs';
@@ -9,57 +9,109 @@ import TabItem from '@theme/TabItem';
 
 ## Introduction
 
-Apollo is a sales intelligence platform used to find prospects, enrich contact data, and support outreach workflows. This guide explains how to configure Apollo credentials in Appse.ai so the platform can securely communicate with the Apollo API.
+Apollo.io is a B2B sales intelligence and engagement platform that helps teams discover leads, enrich contacts, and automate outbound sales workflows. By integrating Apollo.io with Appse.ai, you can securely access people and organization data to power automated sales, enrichment, and CRM workflows.
 
-## Required Fields
+---
 
-You’ll be asked to fill in the following required fields when setting up Apollo credentials in Appse.ai:
+## Setup Credential
 
-| Field           | Description |
-|-----------------|-------------|
-| Connection Name | A name to help you identify this Apollo connection in Appse.ai |
-| API Key         | Your Apollo API key used to authenticate API requests |
+Follow the steps below to configure Apollo.io credentials in Appse.ai.
 
-## Authentication Methods
+### Required Fields
 
-<Tabs>
+The following fields are required to configure Apollo credentials in Appse.ai.
 
-<TabItem value="apollo-apikey" label="API Key">
+| Field           | Description                                                                 |
+|----------------|-----------------------------------------------------------------------------|
+| Connection Name | A name to help you identify this Apollo.io connection within Appse.ai       |
+| API Key        | Your personal Apollo.io API key used to authenticate API requests           |
 
-#### Step 1: Add Connection Name
+:::info
+All required fields must be filled correctly to successfully authorize Apollo with Appse.ai.
+:::
 
-- Click on **Select a credential**.
-- Choose **Create new credential**.
-- Enter a **Connection Name** that helps you recognize this Apollo connection later.
+## Step-by-Step Guide
 
-<img src="/img/credentials/apollo/connection-name.png" alt="Enter connection name for Apollo credential" width="600"/>
+To get started with Apollo.io, click **Select a Credential** and choose **Apollo.io** from the application list.
 
-#### Step 2: Enter API Key
+<img src="/img/credentials/apollo-io/create_credential.png" alt="Create Apollo.io credential" width="700"/>
 
-- In the **API Key** field, paste your Apollo API key.
-- This key will be used to authenticate all requests sent from Appse.ai to Apollo.
+This opens the Apollo.io credential form.
 
-<img src="/img/credentials/apollo/api-key.png" alt="Enter Apollo API key in credential form" width="600"/>
+<img src="/img/credentials/apollo-io/credential_form.png" alt="Apollo.io credential form" width="700"/>
 
-#### Step 3: Review Base Configuration
+---
 
-- The **Base Url**, **API Key Name**, and **Key Addto** fields are preconfigured.
-- These fields are automatically managed by Appse.ai and cannot be edited.
+### Step 1: Add Connection Name
 
-<img src="/img/credentials/apollo/base-configuration.png" alt="Preconfigured and hidden Apollo credential fields" width="600"/>
+- Enter a meaningful **Connection Name**.
+- This is for identification purposes only inside Appse.ai and does not affect your Apollo.io account.
 
-### Save Your Credential
+<img src="/img/credentials/apollo-io/connection_name.png" alt="Apollo.io connection name field" width="600"/>
 
-- Click **Save** to store the credential.
-- Appse.ai will validate the API key using the configured validation endpoint.
-- If validation succeeds, the credential will be saved and available for use in workflows.
-- If validation fails, recheck the API key and try again.
+---
 
-</TabItem>
+### Step 2: Log in to Apollo.io
 
-</Tabs>
+- Open a new tab and log in to your **Apollo.io** account.
+
+<img src="/img/credentials/apollo-io/login.png" alt="Apollo.io login page" width="700"/>
+
+Sign in to your **Zoho Recruit** account.
+
+Or create an account if you don’t already have one:
+
+:::note
+You must have an active Apollo.io account in order to use Apollo.io for integration in the APPSe AI.
+:::
+
+---
+
+### Step 3: Navigate to API Settings
+
+- Click on your **Profile icon** (top-right corner).
+- Select **Settings** from the dropdown menu.
+
+<img src="/img/credentials/apollo-io/profile_settings.png" alt="Apollo.io profile settings" width="700"/>
+
+- In the Settings menu, navigate to **Integrations** → **API**.
+
+<img src="/img/credentials/apollo-io/api_settings.png" alt="Apollo.io API settings" width="700"/>
+
+---
+
+### Step 4: Generate or Copy API Key
+
+- If an API key already exists, click **Copy**.
+- Otherwise, click **Generate API Key**.
+
+<img src="/img/credentials/apollo-io/api_key.png" alt="Apollo.io API key" width="700"/>
+
+:::warning
+Treat your API key like a password. Do not share it publicly or commit it to source control.
+:::
+
+---
+
+### Step 5: Paste API Key in Appse.ai
+
+- Return to the Appse.ai credential form.
+- Paste the copied **API Key** into the **API Key** field.
+
+<img src="/img/credentials/apollo-io/paste_api_key.png" alt="Paste Apollo.io API key" width="700"/>
+
+---
+
+### Step 6: Save Credential
+
+- Click **Save** to store and validate your credential.
+
+<img src="/img/credentials/apollo-io/save_credential.png" alt="Save Apollo.io credential" width="600"/>
+
+---
 
 ## Support
 
-Need help? Contact our support team at hello@appse.ai
+Need help? Contact our support team at **hello@appse.ai**
+
  

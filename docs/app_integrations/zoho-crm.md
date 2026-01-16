@@ -121,3 +121,7 @@ Select the checkbox to allow your app to access the following data from your Zoh
 ## Completion
 
 If you followed all the steps correctly, your Zoho CRM credential should be sucessfully saved.
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai
