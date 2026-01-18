@@ -68,7 +68,7 @@ This opens the Apollo.io credential form.
 
 <img src="/img/credentials/apollo-io/login_page.png" alt="Apollo.io login page" width="700"/>
 
-Sign in to your **Zoho Recruit** account.
+Sign in to your **Apollo.io** account.
 
 Or create an account if you don’t already have one:
 
