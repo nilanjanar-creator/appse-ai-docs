@@ -114,7 +114,7 @@ After successful login, you will able to access your Apollo.io account.
 
 <img src="/img/credentials/apollo-io/set_as_master_key.png" alt="Save as master key" width="700"/>
 
-- Or, you can add api endpoints as per you requiremnt by clicking the api dropdown section and clicking check boxes.
+- Or, you can app api endpoints as per you requirement by clicking the api dropdown section and clicking check boxes.
 
 <img src="/img/credentials/apollo-io/apilist_dropdown.png" alt="Apollo.io API settings" width="700"/>
 
@@ -122,7 +122,7 @@ After successful login, you will able to access your Apollo.io account.
 
 <img src="/img/credentials/apollo-io/save_create_new_apikey.png" alt="Create new api key" width="700"/>
 
-- Once, the key is generated, copy the key to use it for your integration.
+- Once the key is generated, copy the key to use it for your integration.
 
 <img src="/img/credentials/apollo-io/copy_api_key.png" alt="Copy Api Key" width="700"/>
 
@@ -152,5 +152,3 @@ Treat your API key like a password. Do not share it publicly or commit it to sou
 ## Support
 
 Need help? Contact our support team at **hello@appse.ai**
-
- 
