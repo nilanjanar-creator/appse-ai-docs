@@ -110,11 +110,11 @@ After successful login, you will able to access your Apollo.io account.
 
 <img src="/img/credentials/apollo-io/enter_key_name.png" alt="Enter Api key name" width="700"/>
 
-- You, can add the key as master key by enabling **Set as master key**, which automatically gives you access to all apollo api endpoint.
+- You can add the key as master key by enabling **Set as master key**, which automatically gives you access to all apollo api endpoint.
 
 <img src="/img/credentials/apollo-io/set_as_master_key.png" alt="Save as master key" width="700"/>
 
-- Or, you can app api endpoints as per you requiremnt by clicking the api dropdown section and clicking check boxes.
+- Or, you can add api endpoints as per you requiremnt by clicking the api dropdown section and clicking check boxes.
 
 <img src="/img/credentials/apollo-io/apilist_dropdown.png" alt="Apollo.io API settings" width="700"/>
 
