@@ -56,3 +56,7 @@ Make sure you save your **API secret key** somewhere safe, as you **won’t be a
 
 :::
 ---
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai

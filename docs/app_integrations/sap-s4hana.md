@@ -44,3 +44,7 @@ Only enter the portion between https:// and -api.s4hana.cloud.sap
 
 8. Copy these values and paste them into the credential form in Appse AI. Now, you can save to configure your credentials.
 <img src="\img\credentials\sap-s4hana\save-and-configure-credentials.png" alt="save and configure screen" width="400"/>
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai

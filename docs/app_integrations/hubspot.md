@@ -116,3 +116,7 @@ Click on Connect App to connect the credential.
 <img src="\img\credentials\hubspot\connect-app.png" alt="connect app screen" width="700"/>
 
 ---
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai
