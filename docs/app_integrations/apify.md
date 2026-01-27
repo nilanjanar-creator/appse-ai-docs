@@ -95,7 +95,7 @@ The response will include details about your actors:
 
 <img src="/img/credentials/apify/apify-get-actors.png" alt="Apify Get actors" width="700"/>
 
-Please note the name and username from the fields in JSON. When we request an actor the format of actor name needs to be `{username}~{actor-name}`. 
+Please note the name and username from the fields in JSON. When we request an actor the format of actor name needs to be `username~actor-name`. 
 
 ### Step 7: Run an Actor
 
