@@ -1,10 +1,10 @@
 ---
 title: "Apify"
 slug : /app-integrations/apify/
-description: Learn how to setup and use Apify on appse ai.
+description: Learn how to setup and use Apify on appse.ai.
 ---
 
-Apify is a platform designed for automating and scaling data workflows, offering powerful capabilities to manage and process information from various sources. With appse ai, you can easily connect your Apify account, authenticate securely, and perform a range of actions within your automation flows — enabling a smoother, more integrated experience for your data and process automation needs.
+Apify is a platform designed for automating and scaling data workflows, offering powerful capabilities to manage and process information from various sources. With appse.ai, you can easily connect your Apify account, authenticate securely, and perform a range of actions within your automation flows — enabling a smoother, more integrated experience for your data and process automation needs.
 
 ---
 
