@@ -105,7 +105,7 @@ To execute an actor, select the **Run Actor** action. When selected, you'll be a
 
 :::tip Manual Actor Execution
 
-In case you want to execute the actor manually, you need to specify the actor in the format: `username~actorname`
+In case you want to execute the actor manually, you need to specify the actor in the format: `username~actor-name`
 
 For example: `apify~google-search-scraper`
 
