@@ -9,7 +9,7 @@ import TabItem from '@theme/TabItem';
 
 ## Introduction
 
-Gmail is Google’s email service that allows users to send, receive, search, and manage emails efficiently. By integrating Gmail with Appse.ai, you can automate email-based workflows such as sending notifications, reading inbox messages, monitoring threads, and triggering actions based on email events.This guide explains how to configure **Gmail OAuth 2.0 credentials** so Appse.ai can securely connect to your Gmail account.
+Gmail is Google’s email service that allows users to send, receive, search, and manage emails efficiently. By integrating Gmail with Appse.ai, you can automate email-based workflows such as sending notifications, reading inbox messages, monitoring threads, and triggering actions based on email events. This guide explains how to configure **Gmail OAuth 2.0 credentials** so Appse.ai can securely connect to your Gmail account.
 
 ---
 

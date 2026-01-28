@@ -32,12 +32,12 @@ The following fields are required to configure Zoho Books credentials in appse.a
 
 | Field             | Description                                                                              |
 | ----------------- | ---------------------------------------------------------------------------------------- |
-| Authorization URL | Select your Zoho Books authorization url based on where your Zoho account region.        |
-| Token URL         | Select your Zoho Books token url based on where your Zoho account region.                |
+| Authorization URL | Select your Zoho Books authorization url based on your Zoho account region.             |
+| Token URL         | Select your Zoho Books token url based on your Zoho account region.                     |
 | Client ID         | Login to Zoho API Console based on your region and create a client to get Client ID.     |
 | Client Secret     | Copy Client Secret from Zoho API Console along with Client ID.                           |
 | API Access Scope  | Set required Zoho Books scopes like ZohoBooks.modules.ALL in your developer console APP. |
-| Base API URL      | Select your Zoho Books base api url based on where your Zoho account region.             |
+| Base API URL      | Select your Zoho Books base api url based on your Zoho account region.                  |
 
 :::info
 All required fields must be filled correctly to successfully authorize Zoho Books with appse.ai.
