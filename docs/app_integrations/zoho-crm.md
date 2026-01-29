@@ -4,6 +4,8 @@ slug : /app-integrations/zoho-crm/
 ---
 Zoho CRM is a cloud-based software that helps businesses manage their customer relationships, track sales, and automate various business processes. It enables companies to streamline their sales, marketing, and customer support efforts on a single platform.
 
+---
+
 ### Key Features:
 - **Lead and Contact Management**: Track and manage leads, contacts, and accounts.
 - **Sales Automation**: Automate routine tasks, such as follow-ups and data entry.
@@ -121,3 +123,7 @@ Select the checkbox to allow your app to access the following data from your Zoh
 ## Completion
 
 If you followed all the steps correctly, your Zoho CRM credential should be sucessfully saved.
+
+## Support
+
+Need help? Contact our support team at hello@appse.ai

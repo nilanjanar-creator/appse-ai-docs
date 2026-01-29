@@ -97,3 +97,5 @@ Add Store Subdomain and Admin API access token in appse ai. And click on the “
 If you followed all the steps correctly, your credential should be connected.
 
 ---
+
+Need help? Contact our support team at hello@appse.ai
