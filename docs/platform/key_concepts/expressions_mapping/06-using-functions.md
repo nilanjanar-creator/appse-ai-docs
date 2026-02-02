@@ -288,26 +288,10 @@ Use functions on filtered data:
 ### Validate Data
 
 ```js
-{
-  {
-    length($payload.items) > `0`;
-  }
-}
-{
-  {
-    contains($payload.email, "@");
-  }
-}
-{
-  {
-    starts_with($payload.orderId, "ORD-");
-  }
-}
-{
-  {
-    substringAfter($payload.customerEmail, "@") == "company.com";
-  }
-}
+{{ length($payload.items) > `0` }}
+{{ contains($payload.email, "@") }}
+{{ starts_with($payload.orderId, "ORD-") }}
+{{ substringAfter($payload.customerEmail, "@") == "company.com" }}
 ```
 
 ### Get Statistics
