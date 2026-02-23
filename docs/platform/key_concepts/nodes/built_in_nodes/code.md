@@ -23,7 +23,7 @@ The Code Node operates in two modes, which determine how input data is processed
 1.  **Run Once for All Items** (Default):
     *   **Input**: Receives an **Array** of all items from the previous node.
     *   **Output**: Must return an **Array** of object.
-    *   **Best for**: Aggregation, sorting, filtering, or merging data.
+    *   **Ideal for**: Aggregation, sorting, filtering, or merging data.
     
     ```javascript
     // Input ($payload): [
@@ -50,7 +50,7 @@ The Code Node operates in two modes, which determine how input data is processed
 2.  **Run for Each Item**:
     *   **Input**: Receives a **Single Object** for each item. The code runs multiple times (once per item).
     *   **Output**: Must return a **Single Object**.
-    *   **Best for**: Mapping fields, formatting values, or adding new properties to each item independently.
+    *   **Ideal for**: Mapping fields, formatting values, or adding new properties to each item independently.
 
     ```javascript
     // Input ($payload): { 
@@ -82,16 +82,16 @@ Currently, the Code Node supports **JavaScript** only. You can write standard ES
 
 This is where you write your custom code for data transformation. 
 
-*   The code must return a valid JSON output (Array or Object depending on the mode).
+*   The code must return a valid JSON output (Array or Object depending on the [mode](#modes-of-execution)).
 
 ## Code Editor Features
 
 The built-in code editor provides several tools to help you write and debug your logic:
 
-*   **Syntax Highlighting**: Colors your code for better readability.
-*   **Autocomplete**: Type `$` or start typing a variable name to see suggestions for `$payload`, previous nodes (e.g., `$('Get Users')`), and standard JavaScript methods. Suggestions from previous nodes are available once those nodes have been executed.
+*   **Autocomplete**: Type `$` to see suggestions for `$payload`, previous nodes (e.g., `$('Get Users')`), or start typing a variable name or method name to see suggestions for standard JavaScript methods. Suggestions from previous nodes are available once those nodes have been executed. Use `Ctrl` + `Space` for toggling the suggestion tooltip on or off.
 *   **Real-time Linting**: Flags errors immediately, such as syntax issues or attempts to modify read-only data. Warnings will appear if data from previous nodes is not available — this typically means those nodes have not been executed yet.
 *   **Console Output**: Use `console.log()` to print messages to your browser's developer console for debugging.
+*   **Syntax Highlighting**: Colors your code for better readability.
 
 ## Accessing Data
 
@@ -101,7 +101,7 @@ The built-in code editor provides several tools to help you write and debug your
 
 <img src="\img\platform\key-concepts\nodes\built-in\code\immediate-parent.png" alt="Code Node Payload" width="700"/>
 
-The main variable containing your input data.
+This is the main variable containing your input data.
 
 *   **In "Run Once for All Items" mode**:
     `$payload` is an **Array** containing **all items** returned by the previous node. You have access to the entire dataset at once.
@@ -141,7 +141,7 @@ const matchingUser = users.find(u => u.id === $payload.userId);
 
 ---
 
-2.  Connect it to a node that provides data (e.g., an HTTP Request or App Node).
+2.  Connect it to a node that provides data (e.g., an HTTP Request Node or App Node).
 <img src="\img\platform\key-concepts\nodes\built-in\code\connection.png" alt="Code Node Connection" width="700"/>
 
 ---
@@ -212,7 +212,7 @@ return {
 | **Browser APIs** | `window`, `document`, DOM access | Not applicable |
 | **File System** | `fs`, file read/write | Use dedicated nodes |
 | **Modules** | `import`, `require`, `module.exports` | Use built-in libraries only |
-| **Data Mutation** | Direct modification of `$payload` or node data | Return new objects using spread (`...`) |
+| **Data Mutation** | Direct modification of `$payload` or node data `$('Node name').payload` | Return a new object using the spread operator (`...`) |
 
 #### These will cause errors ❌: 
 ```javascript
