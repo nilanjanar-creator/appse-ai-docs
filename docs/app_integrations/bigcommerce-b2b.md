@@ -73,7 +73,6 @@ Here is a recommended table for the required OAuth scopes:
 | Order Fulfillment                            | modify    |
 | Metafield Ownership                          | None      |
 | Metafields Access                            | full      |
-| Store Inventory                              | modify    |
 | B2B Edition                                  | modify    |
 
 :::info
