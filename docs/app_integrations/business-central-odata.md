@@ -85,7 +85,7 @@ Once you've filled in the necessary fields, click **"Save"** to store and verify
 
 ## Web Services Configuration
 
-To use Dynamics 365 Business Central oData supporetd Rest APIs with appse ai, you must publish the required objects as web services inside Business Central. This allows external systems to securely access your Business Central data through OData endpoints.
+To use Dynamics 365 Business Central OData supported REST APIs with appse ai, you must publish the required objects as web services inside Business Central. This allows external systems to securely access your Business Central data through OData endpoints.
 
 Follow the steps below to configure web services:
 
