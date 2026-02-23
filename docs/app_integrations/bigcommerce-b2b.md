@@ -106,7 +106,7 @@ Once both **Store Hash** and **API Token** are entered into the credential form,
 
 ### Triggers and Actions
 
-Here is a list of all the actions and triggers available for Bigcommerce B2B:
+Here is a list of all the actions and triggers available for BigCommerce B2B:
 
 ---
 
