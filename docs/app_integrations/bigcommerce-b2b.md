@@ -76,7 +76,7 @@ Here is a recommended table for the required OAuth scopes:
 | B2B Edition                                  | modify    |
 
 :::info
-Make sure the B2B Edition scope is checked. It is mandatory for accessing b2b features of bigcommece.
+Make sure the B2B Edition scope is checked. It is mandatory for accessing B2B features of BigCommerce.
 :::
 
 <img src="/img/credentials/bigcommerce-b2b/scope.png" alt="APPSeAI BigCommerce B2B Api Scope" width="700"/>
