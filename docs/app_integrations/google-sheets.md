@@ -71,13 +71,13 @@ You’ll need to provide the following details while creating the credential:
 3. Click **Enable**.
    <img src="\img\credentials\google-sheets\GS7.png"  width="700"/>
 
-### Enable Google Drive API (Recommended)
+### Enable Google Drive API
 
 1. In the API Library, search for **Google Drive API**.
 2. Click **Enable**.
    <img src="\img\credentials\google-sheets\GS8.png"  width="700"/>
 
-> Enabling Google Drive API allows better file access and spreadsheet management.
+> **Note:** Enabling the Google Drive API is mandatory to automatically fetch and display all spreadsheets linked to your Google Drive in the Select Spreadsheet dropdown during action configuration.
 
 ---
 
@@ -155,13 +155,14 @@ Click **Next**.
 
    ### Select the following scopes:
 
-   #### Required
-   https://www.googleapis.com/auth/spreadsheets
+   - https://www.googleapis.com/auth/spreadsheets
       <img src="\img\credentials\google-sheets\GS19.png" width="700"/>
 
-   #### Optional (Recommended)
-   https://www.googleapis.com/auth/drive
+   - https://www.googleapis.com/auth/drive
       <img src="\img\credentials\google-sheets\GS20.png" width="700"/>
+
+      
+   > **Note:** Selecting the required scopes ensures that linked Google Sheets are properly fetched and displayed during configuration.   
 
 4. Click **Update**
    <img src="\img\credentials\google-sheets\GS21.png" width="700"/>
@@ -257,7 +258,7 @@ For all examples in this documentation, assume the following Google Sheet:
 6. The Spreadsheet ID is the highlighted portion between /d/ and /edit:
       https://docs.google.com/spreadsheets/d/🟦1A2B3C4D5E6F7G8H9I0🟦/edit#gid=0
 
-Copy this value and paste it into the Spreadsheet ID field in the action configuration.
+Copy this value and paste it into the Spreadsheet ID field in the action configuration wherever required.
 
 ---
 
@@ -265,6 +266,7 @@ Copy this value and paste it into the Spreadsheet ID field in the action configu
 
 The **Get Rows from Google Sheet** action retrieves data from a specified range in a Google Sheet and returns each row as a structured object.  
 This action is commonly used to **read spreadsheet data**, **fetch records**, or **use Google Sheets as a data source** in workflows.
+> **Note:** Regardless of the configured Start Cell and End Cell, the first row of the spreadsheet is always treated as the header row. The column names in this row are used as the JSON field names in the output array of objects.
 
 ---
 
@@ -272,9 +274,9 @@ This action is commonly used to **read spreadsheet data**, **fetch records**, or
 
 | Field          | Description |
 |---------------|------------|
-| Spreadsheet ID | The unique ID of the Google Sheets file |
+| Select Spreadsheet | Select the required spreadsheet from the dropdown |
 | Sheet Name     | The name of the sheet (tab) inside the spreadsheet |
-| Start Cell     | The starting cell of the range to fetch. Make sure to include the column headers also. (e.g., `A1`) |
+| Start Cell     | The starting cell of the range to fetch. (e.g., `A1`) |
 | End Cell       | The ending cell of the range (Recommended: `ZZ` This allows the engine to read data until the last populated cell automatically) |
 
 ---
@@ -300,7 +302,7 @@ This action is commonly used to **initialize data structures**, **generate repor
 
 | Field | Description |
 |------|------------|
-| Spreadsheet ID | The unique ID of the Google Sheets file where the new sheet will be created |
+| Select Spreadsheet | Select the required spreadsheet from the dropdown where the new sheet will be created |
 | Sheet Name | The name of the new sheet (tab) to be created. This field appears dynamically after adding an item under **Sheet Creation Requests** |
 
 > **Note:** You can create multiple sheets by adding multiple items under Sheet Creation Requests.
@@ -328,7 +330,7 @@ This action is commonly used to **insert new records**, **log workflow outputs**
 
 | Field | Description |
 |------|------------|
-| Spreadsheet ID | The unique ID of the Google Sheets file |
+| Select Spreadsheet | Select the required spreadsheet from the dropdown |
 | Sheet Name | The name of the sheet (tab) where the row will be appended |
 | Append Range | Specifies the column range for the row (e.g., `A1:E1`). Data will be appended to the **next available row** within this range |
 | Value Input Mode | Determines how the values are interpreted (`Raw` or `User Entered`). Use **User Entered** when inserting formulas or formatted values |
@@ -359,10 +361,10 @@ This action allows you to update an existing row in a Google Sheet by matching a
 
 | Field | Description |
 |------|------------|
-| **Spreadsheet ID** | The unique ID of the Google Sheets file that contains the sheet where the row needs to be updated. |
-| **Sheet Name** | The name of the sheet (tab) within the selected Google Spreadsheet where the update operation will be performed. |
-| **Row Match Condition** | Defines the criteria used to identify the exact row that should be updated.<br />**Match Column** – Enter the exact column header name (for example: `Employee ID`, `Name`).<br />**Match Value** – Enter the value to match against the selected column. The row containing this value will be identified and updated. |
-| **Updated Column Values** | Clicking **Add Additional Property** displays a key–value pair UI. Each key represents a column header, and the corresponding value represents the new data to be updated in that column. |
+| Select Spreadsheet | Select the required spreadsheet from the dropdown where the row needs to be updated. |
+| Sheet Name | The name of the sheet (tab) within the selected Google Spreadsheet where the update operation will be performed. |
+| Row Match Condition | Defines the criteria used to identify the exact row that should be updated.<br />**Match Column** – Enter the exact column header name (for example: `Employee ID`, `Name`).<br />**Match Value** – Enter the value to match against the selected column. The row containing this value will be identified and updated. |
+| Updated Column Values | Clicking **Add Additional Property** displays a key–value pair UI. Each key represents a column header, and the corresponding value represents the new data to be updated in that column. |
 
 ---
 
