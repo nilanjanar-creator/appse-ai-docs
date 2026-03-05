@@ -24,10 +24,9 @@ Use this node when you need to:
 
 ## Aggregation Modes Overview
 
-The Aggregator Node supports two primary aggregation strategies:
+The Aggregator Node currently supports one aggregation mode:
 
 - **All Item Data**
-- **Select Individual Fields**
 
 ---
 
@@ -37,44 +36,35 @@ This mode aggregates entire records into a single array wrapped inside a defined
 
 ### All Item Data – Configuration Breakdown
 
-| Configuration     | Description |
+| Configuration Field    | Description |
 |------------------|------------|
 | Output Field Name | Specifies the wrapper field that will contain the aggregated array |
 | Fields to Include | Determines how fields from each input record are included. The dropdown provides three options: `All Fields`, `Specified Fields`, and `All Fields Except` |
-| Specified Fields  | Enter the fields you want to include, separated by commas. This option appears only when Specified Fields is selected |
-| Fields to Exclude | Enter the fields you want to exclude, separated by commas. This option appears only when All Fields Except is selected |
+| Specified Fields  | Enter the fields you want to include, separated by commas. This option appears only when `Specified Fields` is selected for the Fields to Include field |
+| Fields to Exclude | Enter the fields you want to exclude, separated by commas. This option appears only when `All Fields Except` is selected for the Fields to Include field |
 
 ### All Item Data – Example
 
+#### Fields to Include - All Fields:
+**Configuration**
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg1.png" alt="map base64 string" width="700"/>
 
----
+**Output**
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg2.png" alt="map base64 string" width="700"/>
 
-## 2. Select Individual Fields
+#### Fields to Include - Specified Fields:
+**Configuration**
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg3.png" width="700"/>
 
-This mode allows you to aggregate specific fields across all incoming records instead of aggregating entire objects.
+**Output**
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg4.png" width="700"/>
 
-Each selected field becomes an aggregated array in the final output.
+#### Fields to Include - All Fields Except:
+**Configuration**
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg5.png" width="700"/>
 
-### Select Individual Fields – Configuration Breakdown
-
-Aggregate Fields (Array-Based Configuration). Each entry added to the array provides the following configuration fields:
-
-| Field | Description |
-|-------|------------|
-| Input Field Name | Specifies the field from the incoming records that will be aggregated |
-| Rename Field | Dropdown option that allows you to rename the aggregated output field. Available options are `Yes` and `No`. Select whether you want to rename the field |
-| Output Field Name | Enter the new name for the field. This field is displayed only when Rename Field is set to Yes |
-
-### Select Individual Fields – Example
-
----
-
-## Output Behavior Summary
-
-- Produces a **single consolidated object**.
-- Output structure depends entirely on the selected aggregation mode.
-- Configuration fields dynamically appear based on user selections.
-- Designed for flexible data transformation before downstream processing.
+**Output**
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg6.png" width="700"/>
 
 ---
 
