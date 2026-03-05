@@ -15,9 +15,7 @@ It enables flexible data reshaping, batching, and grouping before passing data t
 Use this node when you need to:
 
 - Combine multiple records into one payload  
-- Batch data for API requests  
-- Group specific fields into arrays  
-- Restructure workflow data  
+- Batch data for API requests   
 - Build custom output objects  
 
 ---
@@ -38,7 +36,7 @@ This mode aggregates entire records into a single array wrapped inside a defined
 
 | Configuration Field    | Description |
 |------------------|------------|
-| Output Field Name | Specifies the wrapper field that will contain the aggregated array |
+| Output Field Name | Specifies the wrapper field that will contain the aggregated array. Use any custom name as per your requirement |
 | Fields to Include | Determines how fields from each input record are included. The dropdown provides three options: `All Fields`, `Specified Fields`, and `All Fields Except` |
 | Specified Fields  | Enter the fields you want to include, separated by commas. This option appears only when `Specified Fields` is selected for the Fields to Include field |
 | Fields to Exclude | Enter the fields you want to exclude, separated by commas. This option appears only when `All Fields Except` is selected for the Fields to Include field |
@@ -47,10 +45,10 @@ This mode aggregates entire records into a single array wrapped inside a defined
 
 #### Fields to Include - All Fields:
 **Configuration**
-<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg1.png" alt="map base64 string" width="700"/>
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg1.png" width="700"/>
 
 **Output**
-<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg2.png" alt="map base64 string" width="700"/>
+<img src="\img\platform\key-concepts\nodes\built-in\aggregator\Agg2.png" width="700"/>
 
 #### Fields to Include - Specified Fields:
 **Configuration**
