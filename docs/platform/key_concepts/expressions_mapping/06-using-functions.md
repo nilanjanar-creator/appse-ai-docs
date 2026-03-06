@@ -233,7 +233,7 @@ Built-in functions for common data manipulation tasks in APPSeAI expressions.
   "created_at": "{{ get_date_only($payload.updated_at) }}",
   "created_at": "{{ get_time_only($payload.updated_at) }}",
   "updatedAt": "{{ formatDate($payload.updated_at, 'yyyy-MM-ddTHH:mm:ssZ') }}",
-  "U_HoursDifference": "{{ floor(date_diff($payload.updated_at, $payload.created_at, 'hours')) }}"
+  "processingTimeHours": "{{ floor(date_diff($payload.updated_at, $payload.created_at, 'hours')) }}"
 }
 ```
 
@@ -245,7 +245,7 @@ Built-in functions for common data manipulation tasks in APPSeAI expressions.
   "currentTime": "2026-01-16T08:13:49.2091871Z",
   "isOrderPast": "True"
   "updated_at": "2026-02-01T12:31:27Z",
-  "U_HoursDifference": 433
+  "processingTimeHours": 433
 }
 ```
 
