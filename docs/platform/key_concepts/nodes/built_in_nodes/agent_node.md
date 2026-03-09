@@ -33,7 +33,7 @@ The **AI Agent Node** consists of the following sub-nodes:
 
 ## Agent Node
 
-### Steps to add Agent node
+### Steps to add an Agent node
 > **Note:** An AI Agent node can only be added in a non-trigger position. Please add the Trigger node first, then try adding the AI Agent node.
 
 1. Open the select node popup by clicking on the plus icon from the workflow designer. Alternatively, you can click any navigation button in the top-right section (e.g., Most Popular, Apps, etc.).
@@ -132,3 +132,12 @@ The **Output Parser node** allows users to enforce a **structured output format*
 ### Example Configuration
 <img src="\img\platform\key-concepts\nodes\built-in\ai-agent\agent14.png"  width="700"/>
 ---
+
+## Sample Execution
+### Input Configurations
+The workflow configuration used to execute the AI Agent Node.
+<img src="\img\platform\key-concepts\nodes\built-in\ai-agent\agent15.png"  width="700"/>
+
+### Output Generated
+The response produced by the AI Agent after processing the input configuration.
+<img src="\img\platform\key-concepts\nodes\built-in\ai-agent\agent16.png"  width="700"/>
