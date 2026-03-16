@@ -82,11 +82,24 @@ Built-in functions for common data manipulation tasks in APPSeAI expressions.
 
 ## Date and Time Functions
 
+**Sample Payload (Relevant Fields Only)**
+
+```JSON
+"created_at": "2026-01-14 12:05:20",
+"updated_at": "2026-02-01 12:31:27"
+```
+
 | Function               | Expression                                      | Output                         | Use Case                                  |
 | ---------------------- | ----------------------------------------------- | ------------------------------ | ----------------------------------------- |
 | `now()`                | `{{ now() }}`                                   | `2026-01-16T07:29:05.5390268Z` | Get current execution timestamp           |
 | `get_unix_timestamp()` | `{{ get_unix_timestamp($payload.created_at) }}` | `1768392320000`                | Convert datetime field to Unix epoch (ms) |
 | `formatDate()`  |  `{{ formatDate($payload.updated_at, 'yyyy-MM-ddTHH:mm:ssZ') }}`  | `"2026-02-01T12:31:27Z"`  |  Date Formatter  |
+| `date_diff()` | `{{ date_diff($payload.updated_at, $payload.created_at, 'days') }}` | `18` | Return difference in days |
+| `date_diff()` | `{{ date_diff($payload.updated_at, $payload.created_at, 'hours') }}` | `432.4352777777778` | Return difference in hours |
+| `date_diff()` | `{{ date_diff($payload.updated_at, $payload.created_at, 'minutes') }}` | `25946.116666666665` | Return difference in minutes |
+| `date_diff()` | `{{ date_diff($payload.updated_at, $payload.created_at, 'seconds') }}` | `1556767` | Return difference in seconds |
+| `date_diff()` | `{{ date_diff($payload.updated_at, $payload.created_at, 'milliseconds') }}` | `1556767000` | Return difference in milliseconds |
+
 
 ## Utility Functions
 
@@ -219,7 +232,8 @@ Built-in functions for common data manipulation tasks in APPSeAI expressions.
   "isOrderPast": "{{ get_unix_timestamp($payload.created_at) < get_unix_timestamp(now()) }}"
   "created_at": "{{ get_date_only($payload.updated_at) }}",
   "created_at": "{{ get_time_only($payload.updated_at) }}",
-  "updatedAt": "{{ formatDate($payload.updated_at, 'yyyy-MM-ddTHH:mm:ssZ') }}"
+  "updatedAt": "{{ formatDate($payload.updated_at, 'yyyy-MM-ddTHH:mm:ssZ') }}",
+  "processingTimeHours": "{{ floor(date_diff($payload.updated_at, $payload.created_at, 'hours')) }}"
 }
 ```
 
@@ -230,7 +244,8 @@ Built-in functions for common data manipulation tasks in APPSeAI expressions.
   "orderCreatedAtEpoch": "1768392320000",
   "currentTime": "2026-01-16T08:13:49.2091871Z",
   "isOrderPast": "True"
-  "updated_at": "2026-02-01T12:31:27Z"
+  "updated_at": "2026-02-01T12:31:27Z",
+  "processingTimeHours": 433
 }
 ```
 
