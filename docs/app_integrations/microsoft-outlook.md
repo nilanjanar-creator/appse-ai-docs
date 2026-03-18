@@ -70,6 +70,45 @@ Once the sign-in is successful, the authorization window will automatically clos
 
 You are now ready to use Outlook in your Appse AI workflows.
 
+## Triggers and Actions
+
+Here is a list of the available actions and triggers for Outlook:
+
+### Triggers
+
+- **Get messages** — Triggered when a new product is created.
+- **Get inbox emails** — Triggered when an existing product is updated.
+- **Get inbox email for a specific sender email** — Triggered when a new order is created.
+
+---
+
+### Actions
+
+### Attachment Actions
+
+- **Get Mail message attachment** — Read attachment of a mail.
+
+### Common setup
+
+#### Step-by-Step Guide to Use "Get Mail Message Attachment" in Outlook
+
+1. **Use Get Messages Trigger**
+   - Set up the **Get Messages** trigger to activate when a **new message is received** in your inbox.
+
+2. **Extract Message ID**
+   - From the trigger, extract the **Message ID** of the incoming email. This ID will be used to fetch the attachments.
+
+3. **Get Mail Message Attachment**
+   - Use the **Get Mail Message Attachment** action, passing the **Message ID** from the previous step to retrieve details about any attachments in the email.
+
+4. **Extract Content-Type Data**
+   - In the attachment details, look for the **Content-Type** field to get information about the attachment type.
+
+5. **Base64 Conversion**
+   - Take the **Base64 string** from the **Content-Type** field and use a **Base64 to file converter** to convert the string into a usable file (e.g., image, PDF, etc.).
+
+---
+
 ## Support
 
 Need help? Contact our support team at hello@appse.ai
