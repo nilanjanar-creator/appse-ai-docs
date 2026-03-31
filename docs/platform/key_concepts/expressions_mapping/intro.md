@@ -18,7 +18,9 @@ Expressions use JMESPath syntax inside double curly braces to access and transfo
 ```js
 {{ $payload.orderId }}
 {{ $payload.items[*].name }}
-{{ $('previousNode').payload.email }}
+{{ $('nodeName').payload.email }}
+{{ $('nodeName').matchedPayload[] }}
+{{ $('nodeName').all[] }}
 ```
 
 ## Key Concepts
@@ -28,10 +30,33 @@ Expressions use JMESPath syntax inside double curly braces to access and transfo
 | Current node data | `$payload` | Access data flowing into this node |
 | Previous node data | `$('nodeName').payload` | Access output from a previous node |
 | Property access | `.property` | Get a field value |
+| Matched data from a node | `$('nodeName').matchedPayload[]` | Access only matched/filtered items from a node |
+| All data from a node | `$('nodeName').all[]` | Access complete output (all items) from a node |
 | Array operations | `[*]` | Work with all array elements |
 | Filtering | `[?condition]` | Select items matching criteria |
 
 ## Quick Examples
+
+> ⚠️ Note:
+> This sample JSON is a simplified representation for understanding purposes.
+> - `$payload` refers to the data received from the immediately preceding node.
+> - `$('nodeName').payload` refers to data from any specific previous node in the same workflow branch (not the immediate one).
+> 
+> In actual workflows, these come from different nodes, but are shown together here for easier understanding.
+
+```JSON{
+  "orderId": "ORD-001",
+  "items": [
+    { "name": "Laptop", "price": 1000 },
+    { "name": "Mouse", "price": 225 }
+  ],
+  "crmLeads": [
+    { "name": "Alice", "email": "a@abc.com", "status": "Qualified" },
+    { "name": "Bob", "email": "b@abc.com", "status": "Lost Lead" },
+    { "name": "Charlie", "email": "c@abc.com", "status": "Qualified" }
+  ]
+}
+```
 
 | What You Want | Expression | Output |
 |---------------|------------|--------|
@@ -39,6 +64,8 @@ Expressions use JMESPath syntax inside double curly braces to access and transfo
 | List product names | `{{ $payload.items[*].name }}` | `["Laptop", "Mouse"]` |
 | Count items | `{{ length($payload.items) }}` | `2` |
 | Calculate total | `{{ sum($payload.items[*].price) }}` | `1225` |
+| Get all records from a node | `{{ $('nodeName').all[].email }}` | `["a@abc.com", "b@abc.com", "c@abc.com"]` |
+| Get filtered records from a node | `{{ $('nodeName').matchedPayload[].crmLeads[?status == 'Qualified'].name[] }}` | `["Alice", "Charlie"]` |
 
 ## Get Started
 
