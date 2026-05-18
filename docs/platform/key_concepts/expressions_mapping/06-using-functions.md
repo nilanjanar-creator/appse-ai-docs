@@ -120,20 +120,20 @@ Built-in functions for common data manipulation tasks in APPSeAI expressions.
 "created_At": "2025-01-04T14:30:00"
 ```
 
-| Function               | Expression                                                                  | Output                         | Use Case                                  |
-| ---------------------- | --------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------- |
-| `now()`                | `{{ now() }}`                                                               | `2026-01-16T07:29:05.5390268Z` | Get current execution timestamp           |
-| `get_unix_timestamp()` | `{{ get_unix_timestamp($payload.created_at) }}`                             | `1768392320000`                | Convert datetime field to Unix epoch (ms) |
-| `formatDate()`         | `{{ formatDate($payload.updated_at, 'yyyy-MM-ddTHH:mm:ssZ') }}`             | `"2026-02-01T12:31:27Z"`       | Date Formatter                            |
-| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'days') }}`         | `18`                           | Return difference in days                 |
-| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'hours') }}`        | `432.4352777777778`            | Return difference in hours                |
-| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'minutes') }}`      | `25946.116666666665`           | Return difference in minutes              |
-| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'seconds') }}`      | `1556767`                      | Return difference in seconds              |
-| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'milliseconds') }}` | `1556767000`                   | Return difference in milliseconds         |
-| `date_add_days()`      | `{{ date_add_days($payload.created_At, `5`) }}`                             | `2025-01-09T14:30:00`          | Add days to payload date                  |
-| `date_add_days()`      | `{{ date_add_days($payload.created_At, `-3`) }}`                            | `2025-01-01T14:30:00`          | Subtract days from payload date           |
-| `date_add_days()`      | `{{ date_add_days(now(), `7`) }}`                                           | `2026-03-26T...Z`              | Add days to current UTC time              |
-| `date_add_days()`      | `{{ date_add_days(now(), `-10`) }}`                                         | `2026-03-09T...Z`              | Subtract days from current UTC time       |
+| Function               | Expression                                                                  | Output                         | Use Case                                                                                 |
+| ---------------------- | --------------------------------------------------------------------------- | ------------------------------ | ---------------------------------------------------------------------------------------- |
+| `now()`                | `{{ now() }}`                                                               | `2026-01-16T07:29:05.5390268Z` | Get current execution timestamp                                                          |
+| `get_unix_timestamp()` | `{{ get_unix_timestamp($payload.created_at) }}`                             | `1768392320000`                | Convert datetime field to Unix epoch (ms)                                                |
+| `formatDate()`         | `{{ formatDate($payload.updated_at, 'yyyy-MM-ddTHH:mm:ssZ') }}`             | `"2026-02-01T12:31:27Z"`       | Date Formatter                                                                           |
+| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'days') }}`         | `18`                           | Return difference in days                                                                |
+| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'hours') }}`        | `432.4352777777778`            | Return difference in hours                                                               |
+| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'minutes') }}`      | `25946.116666666665`           | Return difference in minutes                                                             |
+| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'seconds') }}`      | `1556767`                      | Return difference in seconds                                                             |
+| `date_diff()`          | `{{ date_diff($payload.updated_at, $payload.created_at, 'milliseconds') }}` | `1556767000`                   | Return difference in milliseconds                                                        |
+| `date_add_days()`      | ``{{ date_add_days($payload.created_At, `5`) }}``                           | `2025-01-09T14:30:00`          | Add days to payload date                                                                 |
+| `date_add_days()`      | ``{{ date_add_days($payload.created_At, `-3`) }}``                          | `2025-01-01T14:30:00`          | Subtract days from payload date                                                          |
+| `date_add_days()`      | ``{{ date_add_days(now(), `7`) }}``                                         | `2026-01-23T07:29:05.539Z`     | Add days to current UTC time where output of now() = 2026-01-16T07:29:05.5390268Z        |
+| `date_add_days()`      | ``{{ date_add_days(now(), `-10`) }}``                                       | `2026-01-06T07:29:05.539Z`     | Subtract days from current UTC time where output of now() = 2026-01-16T07:29:05.5390268Z |
 
 ## Utility Functions
 

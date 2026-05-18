@@ -1,0 +1,10 @@
+{
+  "label": "Billing",
+  "position": 5,
+  "link": {
+    "type": "generated-index",
+    "title": "Billing",
+    "description": "Understand how credits work and manage your billing on the appse ai platform.",
+    "slug": "/platform/billing/"
+  }
+}
