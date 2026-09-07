@@ -31,25 +31,25 @@ You'll be asked to fill in the following details:
 
 Log into your [Salesforce](https://login.salesforce.com/) account. From the Home Screen, go to Setup.
 
-<img src="\img\credentials\salesforce\setup.png" alt="salesforce setup" width="700"/>
+<img src="/img/credentials/salesforce/setup.png" alt="salesforce setup" width="700"/>
 
 #### 2. Go to External Client App
 
 Search for App Manager and click on New External Client App.
 
-<img src="\img\credentials\salesforce\new-external-client-app.png" alt="salesforce new external client app" width="700"/>
+<img src="/img/credentials/salesforce/new-external-client-app.png" alt="salesforce new external client app" width="700"/>
 
 #### 3. Add App name and Email & Enable OAuth
 
 Fill in the basic details like App Name and Email, then go to API (Enable OAuth Settings) and check the box for Enable OAuth. You will find new fields down below.
 
-<img src="\img\credentials\salesforce\app-details-and-enable-oauth.png" alt="salesforce app details and enable oauth" width="700"/>
+<img src="/img/credentials/salesforce/app-details-and-enable-oauth.png" alt="salesforce app details and enable oauth" width="700"/>
 
 #### 4. Add callback URL
 
 First, you need to add the Callback URL. Use https://embedded-ui.appse.ai/oauth-callback.html for the Redirect URL. Copy it and paste it in the Callback URL field in Salesforce.
 
-<img src="\img\credentials\salesforce\callback_url.png" alt="appse ai salesforce callback url" width="700"/>
+<img src="/img/credentials/salesforce/callback_url.png" alt="appse ai salesforce callback url" width="700"/>
 
 > **Note:** The **OAuth 2.0 Client Credentials Grant** doesn't actually use a Callback URL. However, Salesforce's External Client App setup requires this field to be filled in regardless of which OAuth flow you enable, so the URL above is added only to satisfy that mandatory field—it's never invoked during authentication.
 
@@ -60,7 +60,7 @@ Next, you need to add OAuth Scopes in Salesforce. Select the following scopes:
 - Manage user data via APIs (api)
 - Perform requests at any time (refresh_token, offline_access)
 
-<img src="\img\credentials\salesforce\add-scopes.png" alt="salesforce add scopes" width="700"/>
+<img src="/img/credentials/salesforce/add-scopes.png" alt="salesforce add scopes" width="700"/>
 
 #### 6. Make additional adjustments
 
@@ -80,19 +80,19 @@ Once it's done, the fields should look like the image above. At this point, you 
 
 Now, search for External Client App Manager and click on the app you just created.
 
-<img src="\img\credentials\salesforce\external-client-app-manager.png" alt="Salesforce external client app manager" width="700"/>
+<img src="/img/credentials/salesforce/external-client-app-manager.png" alt="Salesforce external client app manager" width="700"/>
 
 #### 9. Go to Policies and click Edit
 
 On the app's detail page, stay on the **Policies** tab. Click the **Edit** button in the top-right corner to open up the policy settings for editing.
 
-<img src="\img\credentials\salesforce\policies_tab.png" alt="Salesforce external client app policies tab" width="700"/>
+<img src="/img/credentials/salesforce/policies_tab.png" alt="Salesforce external client app policies tab" width="700"/>
 
 #### 10. Enable Client Credentials Flow
 
 Scroll down and expand the **OAuth Policies** section. Under **OAuth Flows and External Client App Enhancements**, check the box for **Enable Client Credentials Flow**. This reveals a **Run As (Username)** field—enter the email address of the Salesforce user whose permissions the integration should run as (this user's data access and permission set will apply to all API calls made through this connection).
 
-<img src="\img\credentials\salesforce\policy-run-as-username.png" alt="Salesforce enable client credentials flow" width="700"/>
+<img src="/img/credentials/salesforce/policy-run-as-username.png" alt="Salesforce enable client credentials flow" width="700"/>
 
 > **Note:** The username entered in **Run As** must belong to the Salesforce **execution (integration) user** for this integration. This user must have the **`API Enabled`** permission enabled and the required **object- and field-level** permissions configured through their assigned Profile and/or Permission Sets for the Salesforce data that Appse AI needs to read or write.
 
@@ -104,7 +104,7 @@ Click **Save** to apply the updated OAuth Policies. Salesforce may take a minute
 
 Now, search for External Client App Manager and click on the app you just created (if not already open), then go to the Settings tab and find the link to view your "Consumer Key and Secret." You will receive a verification link on your account's email. Add the same here and you should have your Consumer Key and Consumer Secret.
 
-<img src="\img\credentials\salesforce\find-consumer-key-and-secret.png" alt="Salesforce Consumer Key and secret" width="700"/>
+<img src="/img/credentials/salesforce/find-consumer-key-and-secret.png" alt="Salesforce Consumer Key and secret" width="700"/>
 
 #### 13. Add the Key and Secret back in appse ai
 
